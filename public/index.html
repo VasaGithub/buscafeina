@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mi búsqueda de trabajo</title>
+  <meta name="theme-color" content="#1f4e79">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Trabajo">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1 id="appName">Mi búsqueda de trabajo</h1>
+    <div class="top-actions">
+      <button id="btnSaved" class="btn btn-ghost" type="button"></button>
+      <button id="btnFilters" class="btn btn-ghost" type="button" aria-expanded="false" aria-controls="filters"></button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <nav class="tabs" id="tabs" aria-label="Secciones"></nav>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
